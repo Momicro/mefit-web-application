@@ -21,7 +21,7 @@ export class AdminPage extends BaseComponent implements OnInit {
   private _users! : User[];
 
   constructor(public router: Router, public authService: AuthService,
-              private userService: UserService) {
+              public userService: UserService) {
     super(router, authService);
   }
 

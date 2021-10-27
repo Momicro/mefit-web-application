@@ -17,10 +17,10 @@ import {ProgramService} from "../views/programs/program.service";
 export class DashboardPage extends BaseComponent implements OnInit {
 
   constructor(public readonly router: Router, public readonly authService: AuthService,
-              private readonly dashboardService: DashboardService,
-              private readonly workoutService: WorkoutService,
-              private readonly musclegroupService: MuscleGroupService,
-              private readonly programService: ProgramService) {
+              public readonly dashboardService: DashboardService,
+              public readonly workoutService: WorkoutService,
+              public readonly musclegroupService: MuscleGroupService,
+              public readonly programService: ProgramService) {
     super(router, authService);
   }
 

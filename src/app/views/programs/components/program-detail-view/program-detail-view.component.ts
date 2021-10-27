@@ -13,7 +13,6 @@ export class ProgramDetailViewComponent implements OnInit {
 
   constructor(readonly programService: ProgramService) { }
 
-
   ngOnInit(): void {
   }
 
