@@ -1,0 +1,10 @@
+<div class="card">
+  <h2>Selected units:</h2>
+  <button (click)="dashboardService.clearSelection()" class="tab-dropbtn clickable"  type="submit">clear all</button>
+  <div class="card" *ngFor="let program of dashboardService.selectedProgramsList()">{{program.name}}
+    <button (click)="dashboardService.deleteSelectedProgram(program)" class="tab-dropbtn clickable"  type="submit"><i class="fa fa-trash"></i></button>
+  </div>
+  <div class="card"  *ngFor="let workout of dashboardService.selectedWorkoutsList()">{{workout.name}}
+    <button (click)="dashboardService.deleteSelectedWorkout(workout)" class="tab-dropbtn clickable"  type="submit"><i class="fa fa-trash "></i></button>
+  </div>
+</div>
