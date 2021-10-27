@@ -8,8 +8,8 @@ import { environment as ENV } from 'src/environments/environment';
 import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({
-  templateUrl: './Admin.page.html',
-  styleUrls: ['./Admin.page.css']
+  templateUrl: './admin.page.html',
+  styleUrls: ['./admin.page.css']
 })
 export class AdminPage extends BaseComponent implements OnInit {
 
