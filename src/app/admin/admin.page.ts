@@ -8,7 +8,6 @@ import { environment as ENV } from 'src/environments/environment';
 import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({
-  selector: 'app-Admin',
   templateUrl: './Admin.page.html',
   styleUrls: ['./Admin.page.css']
 })
