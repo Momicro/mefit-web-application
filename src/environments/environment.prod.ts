@@ -2,9 +2,9 @@ import { HttpHeaders } from "@angular/common/http";
 
 export const environment = {
   production: true,
-  apiBaseUrl: 'https://experis-mefit-apis.herokuapp.com',
+  apiBaseUrl: 'https://experis-mefit-springboot.herokuapp.com',
   keycloak: {
-    url: 'http://de-mefit-keycloak.germanywestcentral.azurecontainer.io:8080/auth/',
+    url: 'https://de-mefit-keycloak.herokuapp.com/auth/',
     realm: 'MeFit',
     client: 'MeFit'
   },
